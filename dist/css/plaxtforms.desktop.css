@@ -1,0 +1,466 @@
+/* 
+    Document   : jobshop.desktop
+    Created on : 28.09.2012, 0:22:48
+    Author     : xvit
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0px;    
+
+    background: #6d88b7; /* Old browsers */
+    background: -moz-linear-gradient(left,  #6d88b7 0%, #b8c6df 35%, #b8c6df 63%, #6d88b7 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#6d88b7), color-stop(35%,#b8c6df), color-stop(63%,#b8c6df), color-stop(100%,#6d88b7)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  #6d88b7 0%,#b8c6df 35%,#b8c6df 63%,#6d88b7 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  #6d88b7 0%,#b8c6df 35%,#b8c6df 63%,#6d88b7 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  #6d88b7 0%,#b8c6df 35%,#b8c6df 63%,#6d88b7 100%); /* IE10+ */
+    background: linear-gradient(to right,  #6d88b7 0%,#b8c6df 35%,#b8c6df 63%,#6d88b7 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d88b7', endColorstr='#6d88b7',GradientType=1 ); /* IE6-9 */
+
+}
+
+body.green {
+    background: #398235; /* Old browsers */
+    background: -moz-linear-gradient(left,  #398235 0%, #398235 10%, #c9de96 46%, #c9de96 52%, #398235 87%, #398235 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#398235), color-stop(10%,#398235), color-stop(46%,#c9de96), color-stop(52%,#c9de96), color-stop(87%,#398235), color-stop(100%,#398235)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  #398235 0%,#398235 10%,#c9de96 46%,#c9de96 52%,#398235 87%,#398235 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  #398235 0%,#398235 10%,#c9de96 46%,#c9de96 52%,#398235 87%,#398235 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  #398235 0%,#398235 10%,#c9de96 46%,#c9de96 52%,#398235 87%,#398235 100%); /* IE10+ */
+    background: linear-gradient(to right,  #398235 0%,#398235 10%,#c9de96 46%,#c9de96 52%,#398235 87%,#398235 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#398235', endColorstr='#398235',GradientType=1 ); /* IE6-9 */
+}
+
+body.green2 {
+background: #b4e391; /* Old browsers */
+background: -moz-linear-gradient(left,  #b4e391 0%, #61c419 50%, #b4e391 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#b4e391), color-stop(50%,#61c419), color-stop(100%,#b4e391)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #b4e391 0%,#61c419 50%,#b4e391 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #b4e391 0%,#61c419 50%,#b4e391 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #b4e391 0%,#61c419 50%,#b4e391 100%); /* IE10+ */
+background: linear-gradient(to right,  #b4e391 0%,#61c419 50%,#b4e391 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391', endColorstr='#b4e391',GradientType=1 ); /* IE6-9 */
+}
+
+body.brown{
+    background: #9aad0d; /* Old browsers */
+    background: -moz-linear-gradient(left,  #9aad0d 0%, #73880a 50%, #9aad0d 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#9aad0d), color-stop(50%,#73880a), color-stop(100%,#9aad0d)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  #9aad0d 0%,#73880a 50%,#9aad0d 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  #9aad0d 0%,#73880a 50%,#9aad0d 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  #9aad0d 0%,#73880a 50%,#9aad0d 100%); /* IE10+ */
+    background: linear-gradient(to right,  #9aad0d 0%,#73880a 50%,#9aad0d 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9aad0d', endColorstr='#9aad0d',GradientType=1 ); /* IE6-9 */
+
+
+}
+
+body.grey1{
+    background: rgb(252,255,244);
+background: -moz-linear-gradient(left,  rgba(252,255,244,1) 0%, rgba(223,229,215,1) 40%, rgba(179,190,173,1) 100%);
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(252,255,244,1)), color-stop(40%,rgba(223,229,215,1)), color-stop(100%,rgba(179,190,173,1)));
+background: -webkit-linear-gradient(left,  rgba(252,255,244,1) 0%,rgba(223,229,215,1) 40%,rgba(179,190,173,1) 100%);
+background: -o-linear-gradient(left,  rgba(252,255,244,1) 0%,rgba(223,229,215,1) 40%,rgba(179,190,173,1) 100%);
+background: -ms-linear-gradient(left,  rgba(252,255,244,1) 0%,rgba(223,229,215,1) 40%,rgba(179,190,173,1) 100%);
+background: linear-gradient(to right,  rgba(252,255,244,1) 0%,rgba(223,229,215,1) 40%,rgba(179,190,173,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=1 );
+
+    
+}
+
+
+
+.webapp_messages .alert{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1px;
+}
+
+ul.nav-tabs{
+    margin-bottom:  3px;
+    margin-top:  3px;
+}
+
+.offset-top3{
+    margin-top: 3px;
+}
+.offset-bottom3{
+    margin-bottom: 3px;
+}
+
+.horizontal-space3{
+    height: 3px;
+}
+
+.modal-backdrop {
+    z-index: 33332
+}
+
+.modal {
+    z-index: 33333
+}
+
+table.table-condensed{
+    font-size: 13px;
+}
+
+table.table-condensed tr{
+    height: 17px;
+}
+input.input-condensed{
+    font-size: 13px;
+    height: 17px;
+}
+select.input-condensed{
+    font-size: 13px;
+    margin: 1px;
+    padding: 1px;
+    height: 22px;
+}
+
+.ajax-loader,
+.ajax-work{        
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-top: 1px;
+    line-height: 16px;
+    vertical-align: text-top;
+    background-repeat: no-repeat;
+}
+.circle-working-mini{        
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-top: 1px;
+    line-height: 16px;
+    vertical-align: text-top;
+    background-repeat: no-repeat;
+    background: url('../img/animated_circle-mini.gif');
+}
+
+.circle-working{
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+    margin-top: 1px;
+    line-height: 65px;
+    vertical-align: text-top;
+    background-repeat: no-repeat;
+    background: url('../img/animated_circle-01.gif');
+}
+
+.ajax-loader{
+    background: url('../img/ajax-loader.gif');
+}
+
+.ajax-work{
+    background: url('../img/ajax-work.gif');
+}
+
+.ajax-loader.hide,
+.circle-working.hide,
+.circle-working-mini.hide,
+.ajax-work.hide{
+    display: none;
+}
+
+div.window_frame.corrected{
+    min-height: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.window_frame_correct{
+  min-height: 20px;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+.window_panel{
+    background-color: white;
+}
+
+table.table-data-form tbody tr td:first-child{
+    width: 30%;
+}
+
+table.table-data-form tbody input[type="text"],
+table.table-data-form tbody select,
+table.table-data-form tbody input[type="number"]
+{
+    width: 90%;
+    font-size: 12px;
+    height: 17px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+select.details-search-thickness-list{
+    font-size: 12px;
+    height: 17px;
+    margin : 0;
+    padding: 0;
+    width: 60px;
+}
+select.details-search-material-list{
+    font-size: 12px;
+    height: 17px;
+    margin : 0;
+    padding: 0;
+    width: 130px;
+}
+
+input.details-search-text{
+    font-size: 12px;
+    height: 17px;
+    margin : 0;
+    padding: 0;
+    width: 130px;
+}
+select.details-search-bending-filter{
+
+    height: 17px;
+    margin : 0;
+    padding: 0;
+    width: 80px;
+}
+
+.gran_table td.right{
+    text-align: right;
+}
+
+.gran_table td.small,
+.gran_table th.small,
+.gran_table .small td,
+.gran_table .small th
+{
+    font-size: 9px;
+}
+
+.gran_table td,
+.gran_table{
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+select.details-search-rows-per-page{
+    height: 17px;
+    margin : 0;
+    padding: 0;
+    width: 60px;
+}
+
+.search-elements-bar select,
+.search-elements-bar input,
+.search-elements-bar td{
+    font-size: 12px;
+}
+
+.calculation_table.handsontable th,
+.calculation_table.handsontable td {
+    height: 18px;
+    line-height: 18px;
+    padding: 0 1px 0 1px; /* top, bottom padding different than 0 is handled poorly by FF with HTML5 doctype */
+    font-size: 10px;
+}    
+.calculation_table.handsontable th:last-child {
+    /*Foundation framework fix*/
+    border-right: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+
+}
+.calculation_table.handsontable th select{
+    width: 50px;
+    font-size: inherit;
+    height: 14px;
+    padding: 0;
+}
+
+.calculation_table.handsontable td.currentRow{
+    border-bottom-color: #5292F7;
+    font-weight: bold;
+}
+
+.calculation_table.handsontable td{
+    white-space:nowrap;
+}
+
+input.condensed,
+input.condensed[type=number],
+select.condensed{
+    height: 17px;
+    margin : 0;
+    padding: 0;
+    width: 100px;
+}
+
+input[type=date].condensed{
+    height: 17px;
+    margin : 0;
+    padding: 0;
+    width: 130px;
+    font-size: 13px;
+}
+
+hr.soften.condensed{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+table.gran_table tbody tr[data-plan-status="3"]{
+    border: 1px red solid;
+}
+
+a.warning{
+    color: crimson
+}
+
+.label.label-mini{
+    font-size: 10px;
+    padding: 2px;
+    line-height: 12px;
+    font-weight: bold;
+}
+
+.pluser-detail{
+    cursor: pointer;
+}
+.form {
+    float:left;
+    margin: 2px;
+}
+.form .field{clear:both; text-align:right; line-height:25px;}
+.form .field label{
+    float:left; 
+    padding-right:10px;
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+
+.form .field input[type="number"]{
+    text-align: right;
+    padding-top: 0;
+}
+
+.form .field input,
+.form .field select,
+.form .field select option
+{
+    width: 120px;
+    font-size: 12px;
+    height: 14px;
+    margin: 1px;
+    padding: 2px;
+    -webkit-border-radius: 2px;
+}
+
+
+.form .field select{
+    height: 20px;
+    width:  126px;
+    padding-top: 0;
+}
+
+.form .field.field-large input,
+.form .field.field-large select,
+.form .field.field-large select option,
+.form.field-large .field input
+{
+    width: 250px;
+}    
+
+
+.form.field-large .field select{
+    width: 256px;
+}
+.form .field.extra-large input,
+.form .field.extra-large select,
+.form .field.extra-large select option,    
+.form.extra-large .field input,
+.form.extra-large .field select,
+.form.extra-large .field select option    
+{
+    width: 400px;
+}    
+.form .field.field-inline{
+    display: inline;
+}    
+
+.toolbar input[type=number]{
+    text-align: right;
+}    
+.toolbar input[type=number],
+.toolbar input[type=date],
+.toolbar select,
+.toolbar input[type=text]{
+    height: 17px;
+    margin : 0;
+    padding: 0;
+    width: 100px;
+    font-size: 13px
+}
+.toolbar input[type=date]{
+    height: 17px;
+    margin : 0;
+    padding: 0;
+    width: 120px;
+    font-size: 13px
+}
+
+
+/*
+Patch bootstrap navbar
+*/
+    .desktop-navbar.navbar .navbar-inner{
+        font-size: 13px;
+        min-height: 25px;
+        height: 25px;
+    }
+    
+    .desktop-navbar.navbar a.brand{
+        font-size: 16px;
+        padding-top: 2px;
+        margin-left: 0px;
+    }
+
+    .navbar-inner form input{
+        height: 10px;
+        margin-top: -2px;
+    }
+    
+select option.success  {
+  background-color: #dff0d8;
+}
+
+select option.error {
+  background-color: #f2dede;
+}
+
+select option.info {
+  background-color: #d9edf7;
+}
+select option.warning {
+  background-color: #fcf8e3;
+}
+
+.typeahead.dropdown-menu {
+    position: absolute;
+}
