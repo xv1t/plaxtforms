@@ -1,3 +1,6 @@
+ /*
+ Edit frfom github
+ */
  var JOBSHOP_ROLE_CALCULATIONS = 1;
  var JOBSHOP_ROLE_CALCULATIONS_R = 2;
  var JOBSHOP_ROLE_ORDERS = 3;
