@@ -1,6 +1,8 @@
 app_model = {
-    findUrl: 'Tools/find',
-    saveUrl: 'Tools/save',
+    //findUrl: 'Tools/find',
+    findUrl: 'api/find',
+    //saveUrl: 'Tools/save',
+    saveUrl: 'api/save',
     deleteUrl: 'ajaxDelete',
     add: function(prm1, prm2) {
 
@@ -251,9 +253,14 @@ app_model = {
                 timeout: 30000,
                 url: app.baseUrl + '/' + app.model.findUrl,
                 data: postData,
-                success: function(data) {
+                success: function(res) {
                     app.resume()
-                    result_data = data
+                    if (res.data == undefined)
+                            res.data = []
+                        
+                        if (res.data == null)
+                            res.data = []
+                    result_data = res
                 }
             })
             return result_data
@@ -261,9 +268,14 @@ app_model = {
             $.post(
                     app.baseUrl + '/' + app.model.findUrl,
                     postData,
-                    function(data) {
+                    function(res) {
                         app.resume()
-                        callback(data)
+                        if (res.data == undefined)
+                            res.data = []
+                        
+                        if (res.data == null)
+                            res.data = []
+                        callback(res)
                     }
             )
         }

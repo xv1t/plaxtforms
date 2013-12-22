@@ -8,6 +8,12 @@ String.prototype.h = function() {
             .replace(/"/g, "&quot;")
             .replace(/'/g, "&#039;");
 }
+String.prototype.insert = function(options) {
+    s = this
+    for(var key in options)
+         s = s.replace("{" + key + "}", options[key]);
+    return s
+}
 
 
 /*

@@ -40,6 +40,9 @@ body.green {
     background: linear-gradient(to right,  #398235 0%,#398235 10%,#c9de96 46%,#c9de96 52%,#398235 87%,#398235 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#398235', endColorstr='#398235',GradientType=1 ); /* IE6-9 */
 }
+body.Q3WMk6 {
+    background-image: url(../img/bg/Q3WMk6.png)
+}
 
 body.green2 {
 background: #b4e391; /* Old browsers */
@@ -463,4 +466,9 @@ select option.warning {
 
 .typeahead.dropdown-menu {
     position: absolute;
+}
+
+a.strong{
+    color: black;
+    font-weight: bold;
 }

@@ -29,6 +29,8 @@ app.windows =
                     options.resizable = false;
                 if (options.maximizable == undefined)
                     options.maximizable = false;
+                if (options.minimizable == undefined)
+                    options.minimizable = false;
                 //if (options.showRoundCorner == undefined) options.showRoundCorner = false;
                 if (options.dock == undefined)
                     options.dock = 'bottom';
